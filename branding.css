@@ -1,0 +1,25 @@
+/* ===== الشعار في الشريط العلوي ===== */
+.navbar-brand img {
+    content: url('/assets/dcg_branding/images/logo.png');
+    height: 32px;
+}
+
+/* ===== شعار شاشة الدخول ===== */
+.login-content .app-logo {
+    content: url('/assets/dcg_branding/images/logo-lg.png');
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+/* ===== إخفاء أي ذكر ERPNext ===== */
+.erpnext-brand,
+.footer-powered,
+.app-version {
+    display: none !important;
+}
+
+/* ===== عنوان جانبي أنظف ===== */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 18px;
+}
